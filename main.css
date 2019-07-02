@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: "Montserrat";
+  padding: 0;
+  margin: 0;
+  background-color: #f6f5f7;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-heading {
+  font-weight: 900;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  min-height: 100vh;
+  min-width: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.pricing-box-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.pricing-box-container .pricing-box {
+  padding: 0 30px 30px;
+  margin: 2%;
+  box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+}
+
+.pricing-box-container .pricing-box .price {
+  font-weight: 500;
+  font-size: 36px;
+  margin: 20px;
+}
+
+.pricing-box-container .pricing-box .price sup,
+.pricing-box-container .pricing-box .price sub {
+  font-size: 16px;
+}
+
+.pricing-box-container .pricing-box-premium {
+  background: linear-gradient(to bottom, #e5e4e2 0%, #d6d5d3 100%);
+}
+
+.pricing-box-container .pricing-box-bg-image {
+  background-image: url("https://images.unsplash.com/photo-1550029402-226115b7c579?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=701&q=80");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.features-list {
+  margin: 20px;
+  font-weight: 500;
+}
+
+.features-list li {
+  padding: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.pricing-box-bg-image .features-list li {
+  border-bottom: 1px solid #fff;
+}
+
+.features-list li:last-of-type,
+.pricing-box-bg-image .features-list li:last-of-type {
+  border-bottom: none;
+}
+
+.pricing-box-container .pricing-box .btn-primary {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 25px;
+  background: #ec1362;
+  color: #fff;
+  border: none;
+  font-weight: 700;
+  font-family: "Montserrat";
+  outline: none;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+
+.pricing-box-container .pricing-box .btn-primary:hover {
+  box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.5);
+  transform: translateY(-3px);
+}
+
+.pricing-box-container .pricing-box-bg-image .btn-primary {
+  background: #fff;
+  color: #000;
+}

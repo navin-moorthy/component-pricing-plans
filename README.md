@@ -18,7 +18,7 @@
 
 <p align="center">
   <strong>
-  Checkout my site at <a href="https://navin-navi.github.io/to-do-list-basic/">Basic To do List</a>
+  Checkout my site at <a href="https://navin-navi.github.io/component-pricing-plans/">Pricing Plans Component/a>
   </strong>
 </p>
 
